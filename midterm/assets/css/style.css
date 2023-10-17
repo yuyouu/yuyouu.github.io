@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav {
+    background-color: #ffa62b;
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Crete Round", sans-serif;
+}
+.topnav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+.topbody{
+    display: flex;
+}
+.topbodypic{
+    margin: 100px;
+}
+.topbodytext{
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topbodytext p{
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-family: "Crete Round", sans-serif;
+}
+
+
+.middle_popular{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.middle_popular_pic{
+    margin-left: auto;
+}
+.middle_popular_description_box{
+    width: 900px;
+    height: 350px;
+    border: 3px solid #ffa62b;
+    margin-left: 50px;;
+}
+.middle_popular_description_box p{
+    font-size: 25px;
+    padding: 20px;
+    font-family: "Crete Round", sans-serif;
+}
+
+
+
+.bottom_order_box{
+    background-color: #E7E7E7;
+    width:auto;
+    height: 400px;
+    margin: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+.bottom_order_box button{
+    width: 170px;
+    height: 70px;
+    background-color: #ffa62b;
+    margin-top: 20px;
+}
+.bottom_order_box button p{
+    font-size: 25px;
+}
+.bottom_order_box p{
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.bottom_order_box i{
+    font-size: 25px;
+}
+
+.footer-container{
+    background-color: #ffa62b;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 100px;
+}
+.footer-heading h2{
+    margin-bottom: 15px;
+}
+.footer-heading a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Crete Round", sans-serif;
+}
+.footer-heading a:hover {
+    text-decoration: underline;
+}
+#hours p{
+    font-family: "Crete Round", sans-serif;
+}
+
