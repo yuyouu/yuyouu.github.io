@@ -1,0 +1,151 @@
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #c88937;
+}
+
+.divider {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.leftside {
+    flex:1;
+    background: BurlyWood;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.leftside .content h1 {
+    justify-content: center;
+    display:flex;
+    font-family: "Sriracha", sans-serif;;
+    text-decoration: underline;
+}
+
+.leftside .content img{
+    height: 70%;
+    width: 100%;
+    border: 3px solid  #c88937;
+}
+
+.rightside .content h1 {
+    justify-content: center;
+    display:flex;
+    font-family: "Sriracha", sans-serif;;
+    text-decoration: underline;
+}
+        
+.rightside img {
+    border: 3px solid  #c88937;
+}
+
+.rightside {
+    flex: 1;
+    background:#e4c49b;
+    height:100%;
+}
+
+
+.rightside h2{
+    margin: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: "Sriracha", sans-serif;;
+}
+
+#carousel,
+.carousel-image {
+  width: 300px;
+  height: 400px;
+
+}
+
+#carousel {
+  position: relative;
+    overflow: hidden;
+margin: auto;
+}
+
+#carousel-image-row {
+display: flex;
+position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+
+.carousel-image img {
+  height: 100%;
+  width: 300px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+
+#button-next,
+#button-previous {
+    background: none;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+#button-next:hover,
+#button-previous:hover {
+    background-color: chocolate;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Sriracha", sans-serif;;
+    
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: #c88937;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
+
+.container .image-line {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.item img{
+    height: 90%;
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.container p{
+    font-size: 25px;
+    font-family: "Sriracha", sans-serif;;
+}
+
+
